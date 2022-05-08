@@ -10,6 +10,7 @@ One S3 bucket was created "vois-task-bucket".
 Two sub dirs were created under S3 bucket. One for each instance log files "Instance-1, Instance-2".
 
 The Bash script used to copy the log files from the EC2s to the S3 Bucket is located in "/home/ec2-user/logs-script.sh".
+Copy of the bash script is also on the repo "logs-script.sh".
 
 A cronjob was created to run the scripts on a daily basis at 12:00AM.
 0 0 * * * sudo /home/ec2-user/logs-script.sh -c
