@@ -12,4 +12,4 @@ A cronjob was created to run the scripts on a daily basis at 12:00AM
 0 0 * * * sudo /home/ec2-user/logs-script.sh -c
 
 Both S3 bucket and EC2s are created on region Europe (Frankfurt)
-Access credentials for the EC2s on vois-user-access.csv on the repo
+A user is created who owns access to both EC2s and S3 bucket whose credentials are in file "vois-user-access.csv" on the repo.
